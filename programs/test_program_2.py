@@ -1,7 +1,7 @@
 import pylab
 from random import normalvariate
 ts_length = 100
-epsilon_values = []   
+epsilon_values = []   # An empty list
 i = 0
 while i < ts_length:
     e = normalvariate(0, 1)
